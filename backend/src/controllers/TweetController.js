@@ -10,7 +10,7 @@ module.exports = {
 
     async store(req, res) {
 
-        const tweet = await Tweet.create(req.bady);
+        const tweet = await Tweet.create(req.body);
         
         req.io.emit("tweet", tweet);
         
