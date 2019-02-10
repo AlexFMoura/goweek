@@ -6,11 +6,12 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "mongoose": "^5.4.9",
-    "socket.io": "^2.2.0"
+    "mongoose": "^5.4.11",
+    "socket.io": "^2.2.0",
+    "yarn": "^1.13.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.10"
   },
   "scripts": {
     "start": "nodemon src/index.js"
